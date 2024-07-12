@@ -20,7 +20,7 @@ import javafx.stage.StageStyle;
 import java.io.IOException;
 import java.util.ArrayList;
 
-public class HelloApplication extends Application {
+public class Main extends Application {
 
     private TableView<Data> table = new TableView<Data>();
     private final ObservableList<Data> data =
